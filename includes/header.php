@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
    <!-- Basic -->
@@ -6,7 +7,7 @@
    <!-- Mobile Metas -->
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <!-- Site Metas -->
-   <title>Chair Render | William Wallace</title>
+   <title>HOME | William Wallace</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -31,7 +32,8 @@
    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
    <![endif]-->
    </head>
-   <body id="inner_page" class="inner_page">
+   
+        <body id="home_page" class="home_page">
       <!-- header -->
       <header class="header">
 
@@ -80,48 +82,3 @@
 
       </header>
       <!-- end header -->
-
-
-
-
-     
-      <!-- footer -->
-      <footer class="footer layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-4 col-sm-12">
-                  <a href="index.html"><img class="img-responsive" src="images/logo_footer.png" alt="#" /></a>
-                  <div class="footer_link_heading">
-                     <div class="footer_menu margin_top_30">
-                     <ul>
-                        <li><a href="tel:9876543210">9876 543 210</a></li>
-                        <li><a href="#">demo@gmail.com</a></li>
-                        <li><a href="#">40 Baria Sreet 133/2 NewYork City, US</a></li>
-                     </ul>
-                  </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <div class="cpy">
-        <div class="container">
-           <div class="row">
-             <div class="col-md-12">
-               <p>Copyright 2019. All Rights Reserved.<a href="https://html.design/"> Free html Templates</a></p>
-             </div>
-           </div>
-        </div>
-      </div>
-      <!-- end footer -->
-      <!-- Core JavaScript
-         ================================================== -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/tether.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/parallax.js"></script>
-      <script src="js/animate.js"></script>
-      <script src="js/ekko-lightbox.js"></script>
-      <script src="js/custom.js"></script>
-   </body>
-</html>

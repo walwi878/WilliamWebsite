@@ -130,6 +130,8 @@ img {
 
 svg:not(:root) {
   overflow: hidden;
+  height:30px;
+  width:30px;
 }
 
 button,
@@ -1675,10 +1677,10 @@ pre code {
 
   .col-lg-2-5 {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 13%;
-        -ms-flex: 0 0 13%;
-            flex: 0 0 13%;
-    max-width: 13%;
+    -webkit-flex: 0 0 16%;
+        -ms-flex: 0 0 16%;
+            flex: 0 0 16%;
+    max-width: 16%;
   }
 
   .col-lg-3 {

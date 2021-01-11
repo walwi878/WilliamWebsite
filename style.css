@@ -114,12 +114,26 @@ p {
     color: #9f9f9f;
 }
 
+
+.white p {
+    color: #fff;
+}
+
 p {
     
     font-size: 17px;
     line-height: normal;
     color: #444;
     font-weight: 300;
+}
+
+.copyright p {
+    
+    font-size: 12px;
+    line-height: normal;
+    color: #444;
+    font-weight: 300;
+    
 }
 
 p.large {
@@ -366,6 +380,19 @@ hr.invis {
     margin-top: 30px;
 }
 
+.full .large2center {
+    width: 100%;
+    float: left;
+    vertical-align: left;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 88px;
+    color: #2f42d0;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
 .full .large3 {
     width: 100%;
     float: left;
@@ -443,6 +470,13 @@ hr.invis {
 }
 
 .full {
+    width: 100%;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.full .contact{
     width: 100%;
     float: left;
     vertical-align: middle;
@@ -921,7 +955,7 @@ body#inner_page header.header {
     background-attachment: fixed;
     background-position: center center;
     min-height: 180px;
-    padding: 70px 0 0;
+    padding: 30px 0 10px;
 }
 
 .blue_pattern_bg h4 {
@@ -948,6 +982,7 @@ body#inner_page header.header {
 
 form {
     position: relative;
+    text-align: right;
 }
 
 .form_subribe button {
@@ -968,11 +1003,17 @@ form {
 .form_subribe {
     border-radius: 75px;
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 80px;
+
 }
 
 .footer {
     background:  #ffdacc;
+}
+
+.footer_icon a{
+    height: 20px;
+    width: 20px;
 }
 
 .footer_link_heading h3 {
@@ -1361,6 +1402,10 @@ header .main_menu .nav-item.active a.nav-link {
     margin: 0;
 }
 
+.barcode{
+    white-space:pre; 
+}
+
 .header .dropdown-menu {
     box-shadow: none;
     border-radius: 0;
@@ -1451,13 +1496,19 @@ header .main_menu .nav-item.active a.nav-link {
 .logo {
     float: left;
     margin-top: 50px;
-    margin-bottom: 25px;
+    margin-left: 200px;
+    margin-bottom: 5px;
     height: 50px;
     width: 80px;
 }
 
 .site_information {
     padding-top: 25px;
+}
+
+.site_information a{
+    padding-top: 25px;
+    text-align: right;
 }
 
 .site_information ul {
