@@ -91,99 +91,89 @@
                      <p class="large2center">Visual Diary</h3>
                      <p class="large"> Here are some of my doodles.
                         <br><br>
-                        
+                        </p>
                         <!-- <input type="image" src="doodles/IMG_20210111_200313.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" /> -->
-                        <img id="myImg" src="doodles/IMG_20210111_200313.jpg"  width="250px">
+                        
+                        <img id="myImg" src="doodles/IMG_20210111_200506.jpg"  alt="testing" width="250px">
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
-
-                           <!-- The Close Button -->
                            <span class="close">&times;</span>
-                        
-                           <!-- Modal Content (The Image) -->
                            <img class="modal-content" id="img01">
-                        
-                           <!-- Modal Caption (Image Text) -->
                            <div id="caption"></div>
                         </div>
-                        <script>
-                           // Get the modal
-                           var modal = document.getElementById("myModal");
+                        <script src="js/modal.js"> </script>
 
-                           // Get the image and insert it inside the modal - use its "alt" text as a caption
-                           var img = document.getElementById("myImg");
-                           var modalImg = document.getElementById("img01");
-                           var captionText = document.getElementById("caption");
-                           img.onclick = function(){
-                           modal.style.display = "block";
-                           modalImg.src = this.src;
-                           captionText.innerHTML = this.alt;
-                           }
+                        <img id="myImg2" src="doodles/IMG_20210111_200338.jpg" width="250px"/>
+                        <!-- The Modal -->
+                        <div id="myModal2" class="modal">
+                           <span class="close">&times;</span>
+                           <img class="modal-content" id="img02">
+                           <div id="caption"></div>
+                        </div>
+                        <script src="js/modal.js"> </script>
 
-                           // Get the <span> element that closes the modal
-                           var span = document.getElementsByClassName("close")[0];
+                        <img id="myImg" src="doodles/IMG_20210111_200404.jpg" width="250px"/>
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+                           <span class="close">&times;</span>
+                           <img class="modal-content" id="img01">
+                           <div id="caption"></div>
+                        </div>
+                        <script src="js/modal.js"> </script>
 
-                           // When the user clicks on <span> (x), close the modal
-                           span.onclick = function() {
-                           modal.style.display = "none";
-                           }
-                        </script>
-
-                        <input type="image" src="doodles/IMG_20210111_200338.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200404.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200421.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200444.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200506.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200617.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200647.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200718.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200743.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200752.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200809.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200830.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200852.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_200959.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201013.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201026.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201039.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201051.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201132.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201233.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201315.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201327.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201341.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201403.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201556.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201621.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201636.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201649.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201716.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_201851.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202036.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202110.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202136.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202158.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202227.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202250.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202333.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202350.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202415.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202437.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202459.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202524.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202537.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202559.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202613.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202638.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202652.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202708.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202731.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202746.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202759.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202816.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202832.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202855.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
-                        <input type="image" src="doodles/IMG_20210111_202927.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
+                        <img id="myImg" src="doodles/IMG_20210111_200421.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200444.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200506.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200617.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200647.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200718.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200743.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200752.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200809.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200830.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200852.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_200959.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201013.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201026.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201039.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201051.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201132.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201233.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201315.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201327.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201341.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201403.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201556.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201621.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201636.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201649.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201716.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_201851.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202036.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202110.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202136.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202158.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202227.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202250.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202333.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202350.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202415.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202437.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202459.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202524.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202537.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202559.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202613.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202638.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202652.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202708.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202731.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202746.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202759.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202816.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202832.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202855.jpg" width="250px"/>
+                        <img id="myImg" src="doodles/IMG_20210111_202927.jpg" width="250px"/>
                         <input type="image" src="doodles/IMG20210111190544.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
                         <input type="image" src="doodles/IMG20210111191025.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
                         <input type="image" src="doodles/IMG20210111191626.jpg" class="img-responsive" width="250px"  onclick="location.href='code.html';" />
